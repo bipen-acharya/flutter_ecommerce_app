@@ -10,7 +10,7 @@ import 'widgets/settings_item.dart';
 
 class SettingsView extends GetView<SettingsController> {
   const SettingsView({Key? key}) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     final theme = context.theme;
@@ -25,27 +25,23 @@ class SettingsView extends GetView<SettingsController> {
               dividerEndIndent: 230,
             ),
             20.verticalSpace,
-            Text(
-              'Account',
-              style: theme.textTheme.displayMedium?.copyWith(
-                fontSize: 20.sp,
-                fontWeight: FontWeight.normal,
-              )
-            ),
+            Text('Account',
+                style: theme.textTheme.displayMedium?.copyWith(
+                  fontSize: 20.sp,
+                  fontWeight: FontWeight.normal,
+                )),
             20.verticalSpace,
             const SettingsItem(
-              title: 'Alice Smith',
+              title: 'Bigyan Poudel',
               icon: Constants.userIcon,
               isAccount: true,
             ),
             30.verticalSpace,
-            Text(
-              'Settings',
-              style: theme.textTheme.displayMedium?.copyWith(
-                fontSize: 20.sp,
-                fontWeight: FontWeight.normal,
-              )
-            ),
+            Text('Settings',
+                style: theme.textTheme.displayMedium?.copyWith(
+                  fontSize: 20.sp,
+                  fontWeight: FontWeight.normal,
+                )),
             20.verticalSpace,
             const SettingsItem(
               title: 'Dark Mode',

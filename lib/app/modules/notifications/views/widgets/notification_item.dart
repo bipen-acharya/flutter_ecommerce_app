@@ -28,7 +28,7 @@ class NotificationItem extends StatelessWidget {
         subtitle: Padding(
           padding: EdgeInsets.only(top: 5.h),
           child: Text(
-            '10/06/2022 AT 05:30 PM',
+            '10/09/2023 AT 05:30 PM',
             style: theme.textTheme.bodyMedium?.copyWith(
               fontSize: 12.sp,
             ),
